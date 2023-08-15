@@ -1,5 +1,3 @@
- 
-
  /*
  * File: 0-putchar.c 
  *
@@ -25,4 +23,4 @@
       _putchar ('\n');
       
        return (0) ;
-} 
+}
