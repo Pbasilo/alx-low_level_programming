@@ -3,11 +3,11 @@
 /**
  * main - print _putchar and new line
  *
- * return 0 always
+ * Return: Always 0
  */
 
 int main(void)
 {
-   printf("_putchar\n");
-   return (0);
+printf("_putchar\n");
+return (0);
 }
