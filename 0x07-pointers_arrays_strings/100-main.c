@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * set_string - set the value of a pointer to a string.
+ * @s: Pointer to a pointer to a string.
+ * @to: String to set @s to.
  */
+
 int main(void)
 {
 	char *s0 = "Bob Dylan";
