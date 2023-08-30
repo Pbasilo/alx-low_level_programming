@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * factoral - returns the factoral of a number
- * @r: The number to return the factoral from
+ * factorial - returns the factorial of a number
+ * @r: The number to return the factorial from
  *
- * Return: factoral of r
+ * Return: factorial of r
  */
-int factoral(int r)
+int factorial(int r)
 {
 	if (r < 0)
 		return (-1);
 	if (r == 0)
 		return (1);
-	return (r * factoral(r - 1));
+	return (r * factorial(r - 1));
 }
