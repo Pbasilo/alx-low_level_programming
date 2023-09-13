@@ -3,7 +3,7 @@
 /**
  * array_iterator - prints each array element on a new line
  * @array: array
- * @size: how many to print
+ * @size: how many elements to print
  * @action: pointer to print regular or hex
  * Return: void
  */
