@@ -3,9 +3,9 @@
 
 /**
  * struct list_s - singly linked list
- * @str: String - (malloc string)
- * @len: Length of the string
- * @next: Points to the next node
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
  */
 typedef struct list_s
 {
