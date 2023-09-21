@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
@@ -16,7 +16,7 @@ size_t print_list(const list_t *r)
 		if (!r->str)
 			printf("[0] (nil)\n");
 		else
-			print("[%u] %s\n", r->len, r->str);
+			printf("[%u] %s\n", r->len, r->str);
 		r = r->next;
 		s++;
 	}
