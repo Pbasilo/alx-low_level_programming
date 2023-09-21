@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdlib.h>
 
 /**
@@ -7,7 +7,7 @@
  *
  * Return: number of elements in r
  */
-size_t list_len(const list_ *r)
+size_t list_len(const list_t *r)
 {
 	size_t n = 0;
 
